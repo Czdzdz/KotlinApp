@@ -1,0 +1,22 @@
+ext {
+
+    android = [
+            compileSdkVersion: 28,
+            buildToolsVersion: "28.0.3",
+            minSdkVersion    : 19,
+            targetSdkVersion : 28,
+            versionCode      : 1,
+            versionName      : "1.0",
+            flavorDimensions : "23"
+    ]
+
+    version = [
+            swipeawaydialog: "0.1.1",
+            utilcode       : "1.22.5"
+    ]
+
+    dependencies = [
+            "swipeawaydialog": "com.labo.kaji:swipeawaydialog:${version["swipeawaydialog"]}",
+            "utilcode"       : "com.blankj:utilcode:${version["utilcode"]}"
+    ]
+}
